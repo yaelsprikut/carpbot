@@ -5,7 +5,7 @@
 }
 
 body {
-  font: 100%/1.5em "Droid Sans", sans-serif;
+  font: 100%/1.6em "Droid Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -118,7 +118,7 @@ div {
   color: #fff;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
-  background: #00B4A0;
+  background: #7e8f9f;
   border-radius: 1.25rem;
   border-bottom-right-radius: 0;
   text-align: left;
@@ -160,7 +160,7 @@ div {
 .from-watson .message-inner {
   position: relative;
   border-radius: 1.5625rem;
-  font: 100%/1.5em "Droid Sans", sans-serif;
+  font: 100%/1.6em "Droid Sans", sans-serif;
   color: #B5B5B5;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
@@ -200,12 +200,12 @@ div {
   max-width: 100%;
   padding-left: 0.125rem;
   margin-bottom: -0.125rem;
-  font: 100%/1.5em "Droid Sans", sans-serif;
+  font: 100%/1.6em "Droid Sans", sans-serif;
 
 }
 
 #textInput.underline {
-  border-bottom: 2px solid #00B4A0;
+  border-bottom: 2px solid #7e8f9f;
 }
 
 ::-webkit-input-placeholder {
@@ -322,7 +322,7 @@ html{
   }
 
   .chat-column {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   #payload-column {

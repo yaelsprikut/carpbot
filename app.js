@@ -24,9 +24,10 @@ var Botkit = require('botkit');
 var slackController = Botkit.slackbot();
 
 var app = express();
+// var io = require('socket.io')(app);
 
 var slackBot = slackController.spawn({
-    token: 'xoxb-184360541733-dV7SbjHut2JKlyjkzvo2xqZy'
+    token: 'xoxb-184360541733-ghkMj4tmJ5fYeLrmBWCtpcl8'
 });
 
 var watsonMiddleware = require('botkit-middleware-watson')({
@@ -154,5 +155,5 @@ function updateMessage(input, response) {
   response.output.text = responseText;
   return response;
 }
-
+// app.listen(3000);
 module.exports = app;
